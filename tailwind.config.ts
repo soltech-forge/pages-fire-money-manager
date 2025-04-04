@@ -15,6 +15,11 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
+        black: "#3D5656",
+        primary: "#ff9800", 
+      },
+      backgroundImage: {
+        'gradient-1': 'linear-gradient(-0.125turn, #ff9800,#FCE597 60%, #FDC36F 65%, #ff9800)',
       },
     },
     fontFamily: {
