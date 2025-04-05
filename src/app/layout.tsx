@@ -1,13 +1,11 @@
 "use client";
 
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
-import { Footer } from "@/components/Footer";
-import { PopupWidget }  from "@/components/PopupWidget";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 
 
@@ -26,7 +24,6 @@ export default function RootLayout({
           <div>{children}</div>
           <Footer />
           <ScrollToTop />
-          {/* <PopupWidget /> */}
         </ThemeProvider>
       </body>
     </html>
