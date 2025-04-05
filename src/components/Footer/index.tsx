@@ -20,8 +20,8 @@ const Footer = () => {
 
           <div className="animate_top">
             <a href="/" className="relative">
-              <Image width={50} height={50} src="/images/logo.svg" alt="Logo" className="dark:hidden" />
-              <Image width={50} height={50} src="/images/logo.svg" alt="Logo" className="hidden dark:block" />
+              <Image width={50} height={50} src="/img/logo.svg" alt="Logo" className="dark:hidden" />
+              <Image width={50} height={50} src="/img/logo.svg" alt="Logo" className="hidden dark:block" />
             </a>
           </div>
         </div>
