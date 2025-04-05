@@ -7,7 +7,7 @@ const DownloadButton = () => {
       href="https://play.google.com/store/apps/details?id=com.soltechforge.fire_money_manager"
     >
       <span className="border-stroke border-opacity-40 mr-[18px] border-r pr-[18px] leading-relaxed dark:border-[#BDBDBD]">Download Now</span>
-      <Image src="/images/google-play-store.svg" width="35" height="35" alt="Google Play Store" />
+      <Image src="/img/google-play-store.svg" width="35" height="35" alt="Google Play Store" />
     </a>
   );
 };
