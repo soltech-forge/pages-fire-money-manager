@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800"
+   height="800"
+   viewBox="0 0 192 192"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="google-play-store.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <path
+     d="M 0,0 H 192 V 192 H 0 Z"
+     style="fill:none"
+     id="path2" />
+  <path
+     d="M 156.84,109.93 54.96,167.87 C 44.28,173.94 31.02,166.23 31.02,153.94 V 38.06 c 0,-12.29 13.26,-20 23.94,-13.93 l 101.88,57.94 c 10.8,6.14 10.8,21.71 0,27.85 z"
+     style="fill:none;stroke:#ffffff;stroke-width:12px;stroke-miterlimit:10;stroke-opacity:1"
+     id="path4" />
+  <path
+     d="m 35,33 88,90 M 35,157.61 124,67"
+     style="fill:none;stroke:#ffffff;stroke-width:12px;stroke-linecap:round;stroke-miterlimit:10;stroke-opacity:1"
+     id="path6" />
+</svg>

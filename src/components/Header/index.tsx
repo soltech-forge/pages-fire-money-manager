@@ -33,7 +33,7 @@ const Header = () => {
           <Link href="/">
             <span className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100">
               <span>
-                <Image src="/img/logo.svg" width="50" alt="N" height="50" className="" />
+                <Image src="/img/logo/logo.svg" width="50" alt="N" height="50" className="" />
               </span>
               {/* <span>FIRE Money Manager</span> */}
             </span>

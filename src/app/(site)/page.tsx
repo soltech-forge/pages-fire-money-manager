@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Container className="max-w-c-1390">
       <Hero />
-      <Features />
+      {/* <Features /> */}
       <Benefits />
     </Container>
   );

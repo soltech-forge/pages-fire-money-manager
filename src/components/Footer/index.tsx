@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
+    <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-black">
       <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-        <div className="flex flex-col flex-wrap items-center justify-center gap-5 border-t border-stroke py-7 dark:border-strokedark lg:flex-row lg:justify-between lg:gap-0">
+        <div className="flex flex-col flex-wrap items-center justify-center gap-5 py-7 lg:flex-row lg:justify-between lg:gap-0">
           <div className="animate_top">
             <ul className="flex items-center gap-8">
               <FooterTextButton href="#" text="English" />
@@ -19,9 +19,9 @@ const Footer = () => {
           </div>
 
           <div className="animate_top">
-            <a href="/" className="relative">
-              <Image width={50} height={50} src="/img/logo.svg" alt="Logo" className="dark:hidden" />
-              <Image width={50} height={50} src="/img/logo.svg" alt="Logo" className="hidden dark:block" />
+            <a href="https://soltechforge.com" className="relative">
+              <Image width={150} height={150} src="/img/logo/logo-name-light-horizontal-big.png" alt="Logo" className="dark:hidden" />
+              <Image width={150} height={150} src="/img/logo/logo-name-dark-horizontal-big.png" alt="Logo" className="hidden dark:block" />
             </a>
           </div>
         </div>
