@@ -27,23 +27,18 @@ const Header = () => {
   });
 
   return (
-    <div className={`fixed bg-white dark:bg-black left-0 top-0 z-99999 w-full py-4  ${stickyMenu ? "shadow" : ""}`}>
-      <nav className="container relative mx-auto xl:px-1">
+    <div className={`fixed bg-white dark:bg-black left-0 top-0 z-99999 w-full ${stickyMenu ? "shadow" : ""}`}>
+      <nav className="container relative mx-auto px-16 md:px-8 2xl:px-0 max-w-c-1390">
         <div className="flex flex-wrap items-center justify-between">
           <Link href="/">
-            <span className="flex items-center space-x-2 text-2xl font-medium text-black dark:text-gray-100">
-              <span>
-                <Image src="/img/logo/logo.svg" width="50" alt="N" height="50" className="" />
-              </span>
-              {/* <span>FIRE Money Manager</span> */}
-            </span>
+              <Image src="/img/logo/logo.svg" width="50" alt="N" height="50" className="rounded-xl" style={{ maxHeight: "50px", width: "auto" }} />
           </Link>
 
-          <div className="gap-3 mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
+          <div className="gap-3 my-4 mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
             <ThemeToggler />
           </div>
 
-          <button className="block lg:hidden p-2 rounded-md" onClick={() => setNavigationOpen(!navigationOpen)} aria-label="Toggle menu">
+          <button className="block lg:hidden my-4 p-2 rounded-md" onClick={() => setNavigationOpen(!navigationOpen)} aria-label="Toggle menu">
             {navigationOpen ? (
               <svg className="w-6 h-6 text-gray-800 dark:text-gray-200" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -55,7 +50,7 @@ const Header = () => {
             )}
           </button>
 
-          <div className="hidden text-center lg:flex lg:items-center">
+          <div className="hidden text-center my-4 lg:flex lg:items-center">
             <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
               {menuData.map((menuItem, index) => (
                 <li className="mr-3 px-4" key={index}>

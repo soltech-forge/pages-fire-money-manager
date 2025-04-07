@@ -8,7 +8,7 @@ const TextSection = () => {
         <span className="text-8xl bg-gradient-1 bg-clip-text text-transparent">FIRE</span> <br />
         <span>Money Manager</span>
       </h1>
-      <p className="py-8 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+      <p className="py-8 text-sm lg:text-xl xl:text-2xl leading-normal text-gray-500 dark:text-gray-300">
         Track your income, expenses, and balances effortlessly. Get beautiful visual insights with intuitive charts and graphs to understand your financial health and patrimony at a glance.
       </p>
 

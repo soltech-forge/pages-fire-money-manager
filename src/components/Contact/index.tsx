@@ -21,7 +21,7 @@ const Contact = () => {
       {/* <!-- ===== Contact Start ===== --> */}
       <section id="support" className="px-4 md:px-8 2xl:px-0">
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
-          <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#ff980030] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
+          <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#ff980030] dark:bg-gradient-to-t dark:to-[#ff980030]"></div>
 
           <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
             <motion.div
@@ -82,7 +82,7 @@ const Contact = () => {
                   />
                 </div>
 
-                <input hidden type="text" name="origin" value="fire-money-manager"></input>
+                <input hidden type="text" name="origin" defaultValue="fire-money-manager"></input>
 
                 <div className="mb-11.5 flex">
                   <textarea

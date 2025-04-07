@@ -20,8 +20,8 @@ const Footer = () => {
 
           <div className="animate_top">
             <a href="https://soltechforge.com" className="relative">
-              <Image width={150} height={150} src="/img/logo/logo-name-light-horizontal-big.png" alt="Logo" className="dark:hidden" />
-              <Image width={150} height={150} src="/img/logo/logo-name-dark-horizontal-big.png" alt="Logo" className="hidden dark:block" />
+              <Image width={10} height={10} src="/img/logo/logo-name-light-horizontal-big.png" alt="Logo" className="dark:hidden" style={{ maxHeight: "30px", width: "auto" }} />
+              <Image width={10} height={10} src="/img/logo/logo-name-dark-horizontal-big.png" alt="Logo" className="hidden dark:block" style={{ maxHeight: "30px", width: "auto" }} />
             </a>
           </div>
         </div>
